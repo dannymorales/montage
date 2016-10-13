@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  root 'page#home'
+
+  get 'page/contact'
+
+  resources :order_items
+  resources :addresses
+  resources :orders
   resources :carts
   resources :products
   devise_for :users

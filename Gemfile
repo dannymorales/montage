@@ -32,8 +32,13 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
-gem 'bootstrap', '~> 4.0.0.alpha4'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
+gem 'rmagick', '~> 2.15', '>= 2.15.2'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+gem 'jquery-fileupload-rails', '~> 0.4.7'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
